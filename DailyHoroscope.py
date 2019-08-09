@@ -8,6 +8,7 @@ def parseUrl(url):
     for data in mainData:
         print(data.contents[1].find_all('p')[0].text)
 
+#This will parse the contents from the website
 parseUrl('https://www.horoscope.com/us/horoscopes/general/horoscope-general-daily-today.aspx?sign=3')
 
 #https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=ta&dt=t&q=what
